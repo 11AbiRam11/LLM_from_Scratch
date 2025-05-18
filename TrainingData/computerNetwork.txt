@@ -1,0 +1,37 @@
+Computer networks are systems that connect computers and other devices to share information and resources. These connections can be made using cables, wireless signals, or a combination of both. Networks allow devices to communicate, transfer data, and access shared software and hardware such as printers or storage.
+
+There are various types of computer networks, categorized by their size and function. A Personal Area Network, or PAN, is the smallest, typically used for connecting devices like phones and laptops over a short range, usually via Bluetooth or USB. A Local Area Network, or LAN, covers a limited area like a home, office, or building and is often used for internal communication and file sharing. A Metropolitan Area Network, or MAN, covers a larger area such as a city. A Wide Area Network, or WAN, spans large geographical regions and may connect multiple LANs or MANs together; the internet is the most well-known example of a WAN.
+
+Computer networks can be classified as peer-to-peer or client-server. In a peer-to-peer network, each device acts as both a client and a server, sharing responsibilities equally. In contrast, a client-server network has dedicated servers that provide services or resources to client devices.
+
+Network topologies describe how devices are arranged. Common topologies include bus, ring, star, mesh, and hybrid. In a bus topology, all devices share a single communication line. A ring topology connects each device to two others, forming a circle. A star topology connects all devices to a central hub. Mesh topology provides point-to-point connections between each device, offering redundancy and reliability. Hybrid topology combines elements of two or more topologies.
+
+Data in a network is transmitted using protocols, which are standardized rules that define how information is sent and received. The most commonly used protocol suite is the TCP/IP model, which underpins the internet. It consists of four layers: the application layer, the transport layer, the internet layer, and the network access layer.
+
+The application layer is responsible for providing services to the user, such as HTTP for web browsing, FTP for file transfers, and SMTP for email. The transport layer handles end-to-end communication and error checking. TCP, or Transmission Control Protocol, is used for reliable communication, while UDP, or User Datagram Protocol, is used for faster, connectionless transfers. The internet layer deals with logical addressing and routing using the Internet Protocol, or IP. The network access layer handles physical transmission over the network medium.
+
+The OSI model, or Open Systems Interconnection model, is another conceptual framework that defines seven layers of communication: physical, data link, network, transport, session, presentation, and application. While it is not used directly in most systems, it helps in understanding and designing network protocols.
+
+Each device on a network has a unique identifier called an IP address. IPv4 addresses are 32-bit numbers, usually shown in dotted decimal format, like 192.168.1.1. IPv6 is a newer version using 128-bit addresses to accommodate the growing number of devices. Devices also use MAC addresses, which are physical addresses assigned to network interfaces.
+
+Routing is the process of selecting paths in a network for data to travel. Routers are devices that connect different networks and determine the best path for data packets. Switching occurs within a network, directing data to its destination using MAC addresses. Switches and hubs are commonly used to connect devices in LANs, but switches are more efficient because they send data only to the intended recipient.
+
+Wireless communication uses radio waves to transmit data without cables. Wi-Fi is the most common wireless technology for LANs. It is governed by IEEE 802.11 standards. Wireless networks are convenient but may require additional security measures, such as encryption and authentication, to prevent unauthorized access.
+
+Security is a critical aspect of networking. Threats include malware, phishing, man-in-the-middle attacks, denial of service, and eavesdropping. To protect networks, organizations use firewalls, antivirus software, intrusion detection systems, and encryption protocols like SSL and TLS. Authentication methods, such as passwords, biometrics, and multi-factor authentication, also enhance security.
+
+Network devices include routers, switches, hubs, modems, access points, firewalls, and repeaters. Routers connect different networks and manage traffic. Switches connect devices within a network. Hubs are simpler devices that broadcast data to all connected devices. Modems convert digital signals to analog for transmission over telephone lines and vice versa. Access points provide wireless connectivity. Firewalls monitor and filter network traffic for security. Repeaters amplify signals to extend the range of a network.
+
+Bandwidth is the amount of data that can be transmitted in a given amount of time. It is usually measured in bits per second. Latency is the delay between sending and receiving data. Higher bandwidth and lower latency improve network performance. Packet loss, jitter, and congestion also affect performance and quality of service, especially in real-time applications like video calls and online gaming.
+
+Network addressing is essential for communication. Besides IP and MAC addresses, networks use DNS, or Domain Name System, to translate domain names into IP addresses. DHCP, or Dynamic Host Configuration Protocol, automatically assigns IP addresses to devices on a network.
+
+Network management involves monitoring, configuring, and maintaining network infrastructure. Network administrators use tools to analyze performance, detect faults, and enforce policies. SNMP, or Simple Network Management Protocol, is often used for these purposes.
+
+Virtual Private Networks, or VPNs, provide secure connections over public networks by encrypting traffic. They are used for secure remote access and protecting privacy. VLANs, or Virtual LANs, group devices into logical segments regardless of physical location, improving organization and security.
+
+Cloud networking involves hosting services and infrastructure in remote data centers. Users access these services over the internet. Cloud computing models include Infrastructure as a Service, Platform as a Service, and Software as a Service.
+
+The future of networking includes trends such as 5G, IoT, SDN, and network virtualization. 5G offers higher speeds and lower latency. IoT connects everyday objects to the internet. SDN, or Software-Defined Networking, separates control from hardware, allowing for more flexible management. Network virtualization enables multiple virtual networks on a single physical infrastructure.
+
+In summary, computer networks are vital for modern communication, enabling the exchange of data and resources. They range from small personal networks to the vast global internet, built on a foundation of protocols, hardware, and software. Understanding their components, architecture, and security is essential for managing and using them effectively.
